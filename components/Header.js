@@ -16,6 +16,7 @@ export default function Header(){
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
         <Link href="/" style={{display:'flex',alignItems:'center',gap:12}}>
           <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
+          <span className="brand-text">The O‑Huffman Group, LLC</span>
         </Link>
 
         <button

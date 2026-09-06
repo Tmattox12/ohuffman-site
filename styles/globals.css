@@ -6,6 +6,7 @@ a{color:var(--accent)}
 .site-header{border-bottom:1px solid rgba(255,255,255,0.04);position:sticky;top:0;z-index:60;padding:18px 24px;background:transparent;transition:background .25s ease,backdrop-filter .25s ease}
 .site-header.scrolled{background:linear-gradient(180deg,rgba(2,6,23,0.6),rgba(2,6,23,0.28));backdrop-filter:blur(6px)}
 .logo-img{height:36px}
+.brand-text{color:#fff;font-weight:700;font-size:14px;letter-spacing:0.2px}
 .container{max-width:1200px;margin:0 auto}
 @media (max-width:640px){.site-header{padding:12px}}
 
@@ -46,7 +47,9 @@ a{color:var(--accent)}
 .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1200px;margin:0 auto}
 .product-card{display:flex;align-items:center;gap:18px;background:linear-gradient(180deg, rgba(18,44,70,0.60), rgba(9,30,50,0.50));border-radius:12px;padding:20px;min-height:160px;box-shadow:0 8px 30px rgba(2,8,20,0.6);border:1px solid rgba(18,140,160,0.08)}
 .product-card img{max-height:none;object-fit:contain;display:block;margin:0}
-.product-card .product-logo{width:88px;height:88px;flex:0 0 88px;object-fit:contain;display:block}
+.product-logo-wrap{width:88px;height:88px;flex:0 0 88px;display:flex;align-items:center;justify-content:center}
+.product-logo-wrap img{max-width:74px;max-height:74px;display:block}
+.product-card .product-logo{width:auto;height:auto;object-fit:contain;display:block}
 .product-card .product-body{flex:1}
 .product-card h3{margin:0 0 6px}
 .product-card p{color:var(--muted);margin:0 0 12px}
@@ -79,4 +82,8 @@ a{color:var(--accent)}
 	.hero-inner{padding:48px 18px;text-align:center;align-items:center}
 	.hero-title{font-size:32px}
 	.hero-bg{height:360px}
+}
+
+@media (max-width:640px){
+  .brand-text{display:none}
 }

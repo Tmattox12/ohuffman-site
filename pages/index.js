@@ -28,7 +28,9 @@ export default function Home() {
 
             <div className="product-grid">
               <div className="product-card">
-                <img src="/ai-job.png" alt="AI Job Website" className="product-logo" />
+                <div className="product-logo-wrap">
+                  <img src="/ai-job.png" alt="AI Job Website" className="product-logo" />
+                </div>
                 <div className="product-body">
                   <h3>AI Job Website</h3>
                   <div className="subtitle">Career Platform (Pre-Launch)</div>
@@ -38,7 +40,9 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/veritas.jpg" alt="Veritas" className="product-logo" />
+                <div className="product-logo-wrap">
+                  <img src="/veritas.jpg" alt="Veritas" className="product-logo" />
+                </div>
                 <div className="product-body">
                   <h3>Veritas</h3>
                   <div className="subtitle">Legal Financial Intelligence</div>
@@ -48,7 +52,9 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/empowermehealth.png" alt="EmpowerMeHealth" className="product-logo" />
+                <div className="product-logo-wrap">
+                  <img src="/empowermehealth.png" alt="EmpowerMeHealth" className="product-logo" />
+                </div>
                 <div className="product-body">
                   <h3>EmpowerMeHealth</h3>
                   <div className="subtitle">Healthcare Connection App</div>
