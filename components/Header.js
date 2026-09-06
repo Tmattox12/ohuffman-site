@@ -7,8 +7,9 @@ export default function Header(){
         <Link href="/" style={{display:'flex',alignItems:'center',gap:12}}>
           <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
         </Link>
-        <nav className="nav" style={{display:'flex',gap:16}}>
+        <nav className="nav" style={{display:'flex',gap:18}}>
           <Link href="/about">About</Link>
+          <Link href="/services">Services</Link>
           <Link href="/ventures">Ventures</Link>
           <Link href="/contact">Contact</Link>
         </nav>

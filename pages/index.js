@@ -5,20 +5,27 @@ export default function Home() {
     <div className="container">
       <Header />
       <main>
-        <section className="hero" style={{padding:'72px 24px',textAlign:'center',background:'linear-gradient(180deg,#e6f7fb,white)'}}>
+        <section className="hero" style={{padding:'72px 24px',textAlign:'center',background:'linear-gradient(180deg,#e6f7fb,white)',position:'relative'}}>
           <h1>The O‑Huffman Group LLC</h1>
           <p style={{fontStyle:'italic',maxWidth:760,margin:'8px auto'}}>Building intelligent products that simplify real‑world problems.</p>
           <p style={{marginTop:6}}>Tucson‑rooted. Founder‑led. Human‑centered.</p>
           <div style={{marginTop:18,display:'flex',gap:12,justifyContent:'center'}}>
             <a className="cta" href="/ventures">Explore Our Work</a>
             <a className="cta secondary" href="/contact">Contact Us</a>
-          </div>
-        </section>
-
-        <section className="mission" style={{padding:'36px 24px',maxWidth:920}}>
-          <h2>Mission Statement</h2>
-          <p>We build digital products that make life easier, clearer, and more efficient. Our focus is practical innovation — tools that solve real problems for real people.</p>
-        </section>
+          <main>
+            <section className="hero-bleed">
+              <img src="/tucson-skyline.svg" alt="Tucson skyline" className="hero-bg" />
+              <div className="hero-inner">
+                <div className="hero-divider" />
+                <h1 className="hero-title">The O‑Huffman Group LLC</h1>
+                <div className="hero-meta">Founder · Product Strategist · Tucson, AZ</div>
+                <div className="hero-sub">Building intelligent products that simplify real‑world problems.</div>
+                <div className="hero-ctas">
+                  <a className="cta" href="/ventures">Explore Our Work</a>
+                  <a className="cta secondary" href="/contact">Contact Us</a>
+                </div>
+              </div>
+            </section>
 
         <section className="what-we-do" style={{padding:'24px',maxWidth:920}}>
           <h2>What We Do</h2>
