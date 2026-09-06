@@ -28,7 +28,7 @@ export default function Home() {
 
             <div className="product-grid">
               <div className="product-card">
-                <img src="/loveyournextjob.svg" alt="AI Job Website" style={{height:44,marginBottom:12}} />
+                <img src="/ai-job.svg" alt="AI Job Website" style={{height:44,marginBottom:12}} />
                 <h3>AI Job Website</h3>
                 <div style={{color:'var(--muted)',fontSize:13,fontWeight:700,marginBottom:8}}>Career Platform (Pre-Launch)</div>
                 <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
