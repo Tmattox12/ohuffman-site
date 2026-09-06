@@ -1,0 +1,23 @@
+name: Prevent Large Files
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-size:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find files larger than 100MB
+        run: |
+          echo "Checking for files > 100MB"
+          git ls-files -z | xargs -0 -n1 du -b | awk '$1 > 100000000 {print $2" ("$1" bytes)"}' > large_files.txt || true
+          if [ -s large_files.txt ]; then
+            echo "Found large files:" && cat large_files.txt
+            exit 1
+          else
+            echo "No large files found."
+          fi
