@@ -28,7 +28,6 @@ export default function Header(){
 
         <nav className={"nav" + (open ? ' open' : '')}>
           <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
           <Link href="/ventures">Ventures</Link>
           <Link href="/contact">Contact</Link>
         </nav>
