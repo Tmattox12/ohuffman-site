@@ -44,12 +44,14 @@ a{color:var(--accent)}
 .products .section-title{color:#9fded0;text-align:center;margin-bottom:8px;font-weight:700}
 .products .section-sub{color:var(--muted);text-align:center;margin-bottom:28px}
 .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1200px;margin:0 auto}
-.product-card{background:linear-gradient(180deg, rgba(12,34,58,0.55), rgba(6,20,36,0.45));border-radius:12px;padding:24px;min-height:160px;box-shadow:0 8px 30px rgba(2,8,20,0.6);border:1px solid rgba(18,140,160,0.06)}
+.product-card{background:linear-gradient(180deg, rgba(18,44,70,0.60), rgba(9,30,50,0.50));border-radius:12px;padding:24px;min-height:160px;box-shadow:0 8px 30px rgba(2,8,20,0.6);border:1px solid rgba(18,140,160,0.08)}
 .product-card img{max-height:48px;object-fit:contain;display:block;margin-bottom:12px}
+.product-card .product-logo{height:120px;width:100%;object-fit:contain;display:block;margin-bottom:12px}
 .product-card h3{margin:0 0 6px}
 .product-card p{color:var(--muted);margin:0 0 12px}
 .product-card .subtitle{color:var(--accent);font-size:13px;font-weight:700;margin-bottom:8px}
 .product-card .learn{display:inline-block;padding:8px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);color:var(--accent);text-decoration:none}
+.product-card .learn.disabled{border-color:rgba(255,255,255,0.03);color:var(--muted);background:transparent;pointer-events:none}
 @media (max-width:960px){.product-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:640px){.product-grid{grid-template-columns:1fr}}
 
@@ -61,6 +63,12 @@ a{color:var(--accent)}
 .founder-content p{color:var(--muted);margin:0 0 12px}
 .founder-cta{display:inline-block;padding:10px 16px;background:transparent;border:1px solid rgba(255,255,255,0.06);border-radius:8px;color:var(--accent);text-decoration:none}
 @media (max-width:800px){.founder{flex-direction:column;align-items:center;text-align:center}.founder-photo{width:140px;height:140px}.founder-photo img{object-position:50% 48%;transform:none}}
+
+/* Nico's Place section */
+.nico{padding:42px 24px;background:transparent}
+.nico-inner{max-width:900px;margin:0 auto;padding:28px;border-radius:12px;background:linear-gradient(180deg, rgba(8,30,48,0.55), rgba(6,18,32,0.36));box-shadow:0 8px 24px rgba(2,8,20,0.45)}
+.nico h2{color:#fff;margin:0 0 10px;font-size:22px}
+.nico p{color:var(--muted);margin:0 0 12px;line-height:1.6}
 
 @media (max-width:800px){
 	.hero-inner{padding:48px 18px;text-align:center;align-items:center}
