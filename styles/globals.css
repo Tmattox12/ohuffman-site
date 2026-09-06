@@ -1,5 +1,5 @@
 .root{--nav:#0b2545}
-:root{--bg:#071028;--panel:#07182a;--muted:#9aa8b3;--accent:#26c6b0;--glass:rgba(255,255,255,0.04)}
+:root{--bg:#071028;--panel:#07182a;--muted:#9fe5dd;--accent:#26c6b0;--glass:rgba(255,255,255,0.04)}
 html,body,#root{height:100%}
 body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#031025 0%, #071028 100%);color:#dbeafe}
 a{color:var(--accent)}

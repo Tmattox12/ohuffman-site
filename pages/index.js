@@ -57,12 +57,12 @@ export default function Home() {
         <section className="founder">
           <div className="container" style={{display:'flex',alignItems:'center',gap:24}}>
             <div className="founder-photo">
-              <img src="/tamara.jpg" alt="Tamara O-Huffman" />
+              <img src="/tamara.jpg" alt="Tamara Huffman" />
             </div>
 
             <div className="founder-content" style={{flex:1}}>
               <div style={{color:'var(--muted)',fontSize:12,fontWeight:700}}>FOUNDER & PRODUCT STRATEGIST</div>
-              <h3 style={{margin:'6px 0 6px'}}>Tamara O‑Huffman</h3>
+              <h3 style={{margin:'6px 0 6px'}}>Tamara Huffman</h3>
               <div style={{color:'var(--muted)',marginBottom:12}}>Tucson, Arizona</div>
               <p style={{color:'var(--muted)'}}>With 25+ years of experience in product strategy, legal technology, and operational leadership, Tamara is passionate about building software that solves real problems and improves lives.</p>
               <div style={{marginTop:12}}><a className="founder-cta" href="/about">Meet Tamara</a></div>
