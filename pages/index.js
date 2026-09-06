@@ -29,26 +29,32 @@ export default function Home() {
             <div className="product-grid">
               <div className="product-card">
                 <img src="/ai-job.png" alt="AI Job Website" className="product-logo" />
-                <h3>AI Job Website</h3>
-                <div className="subtitle">Career Platform (Pre-Launch)</div>
-                <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
-                <div style={{marginTop:12}}><span style={{display:'inline-block',padding:'8px 12px',borderRadius:18,background:'#071828',color:'#9fe5dd',fontWeight:700}}>Coming Soon</span></div>
+                <div className="product-body">
+                  <h3>AI Job Website</h3>
+                  <div className="subtitle">Career Platform (Pre-Launch)</div>
+                  <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
+                  <div style={{marginTop:12}}><span style={{display:'inline-block',padding:'8px 12px',borderRadius:18,background:'#071828',color:'#9fe5dd',fontWeight:700}}>Coming Soon</span></div>
+                </div>
               </div>
 
               <div className="product-card">
-                <img src="/veritas.jpg" alt="Veritas" style={{height:44,marginBottom:12}} />
-                <h3>Veritas</h3>
-                <div className="subtitle">Legal Financial Intelligence</div>
-                <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
-                <span className="learn disabled">Under development</span>
+                <img src="/veritas.jpg" alt="Veritas" className="product-logo" />
+                <div className="product-body">
+                  <h3>Veritas</h3>
+                  <div className="subtitle">Legal Financial Intelligence</div>
+                  <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
+                  <span className="learn disabled">Under development</span>
+                </div>
               </div>
 
               <div className="product-card">
                 <img src="/empowermehealth.png" alt="EmpowerMeHealth" className="product-logo" />
-                <h3>EmpowerMeHealth</h3>
-                <div className="subtitle">Healthcare Connection App</div>
-                <p>Connecting people to the care they need with clarity, compassion, and confidence.</p>
-                <span className="learn disabled">Under development</span>
+                <div className="product-body">
+                  <h3>EmpowerMeHealth</h3>
+                  <div className="subtitle">Healthcare Connection App</div>
+                  <p>Connecting people to the care they need with clarity, compassion, and confidence.</p>
+                  <span className="learn disabled">Under development</span>
+                </div>
               </div>
             </div>
           </div>
