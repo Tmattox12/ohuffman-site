@@ -33,6 +33,12 @@ export default function Home() {
         <section id="ventures" className="ventures" style={{padding:'36px 24px'}}>
           <h2>Ventures</h2>
           <div className="cards">
+            <div className="card">
+              <img src="/loveyournextjob.svg" alt="LoveYourNextJob" style={{height:36,marginBottom:12}} />
+              <h3>LoveYourNextJob.com</h3>
+              <p>Career Platform (Pre‑Launch)<br/>A next‑generation career platform designed to help people discover meaningful work and build futures they love.</p>
+              <div style={{marginTop:12}}><span style={{display:'inline-block',padding:'6px 10px',borderRadius:20,background:'#111827',color:'#fca5a5',fontWeight:700}}>Coming Soon</span></div>
+            </div>
               <div className="card">
                 <img src="/verital.svg" alt="Verital" style={{height:36,marginBottom:12}} />
                 <h3>Verital</h3>
