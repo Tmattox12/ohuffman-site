@@ -5,34 +5,38 @@ export default function Home() {
     <div className="container">
       <Header />
       <main>
-        <section className="hero">
-          <h1>The O-Huffman Group, LLC</h1>
-          <p>Strategy, partnerships, and ventures built for the future.</p>
-          <a className="cta" href="/contact">Get in touch</a>
-        </section>
-
-        <section className="mission" style={{padding:'28px 24px',maxWidth:880}}>
-          <h2>Mission</h2>
-          <p>We build digital products that make life easier, clearer, and more efficient. Our focus is practical innovation — tools that solve real problems for real people.</p>
-        </section>
-
-        <section className="services" style={{padding:'24px'}}>
-          <h2>What We Do</h2>
-          <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))',gap:12}}>
-            <div className="card"><h3>iOS App Development</h3><p>From concept to App Store launch — UX, compliance, product strategy, and user‑centered design.</p></div>
-            <div className="card"><h3>AI‑Driven Product Design</h3><p>Automation, intelligent workflows, and smart matching systems.</p></div>
-            <div className="card"><h3>Launch Strategy & Positioning</h3><p>Product Hunt, App Store, social media, and multi‑platform launch orchestration.</p></div>
-            <div className="card"><h3>Branding & Messaging</h3><p>Clean, professional identity systems with a Tucson aesthetic.</p></div>
-            <div className="card"><h3>Founder Advisory</h3><p>Helping new founders build, launch, and scale their first product.</p></div>
+        <section className="hero" style={{padding:'72px 24px',textAlign:'center',background:'linear-gradient(180deg,#e6f7fb,white)'}}>
+          <h1>The O‑Huffman Group LLC</h1>
+          <p style={{fontStyle:'italic',maxWidth:760,margin:'8px auto'}}>Building intelligent products that simplify real‑world problems.</p>
+          <p style={{marginTop:6}}>Tucson‑rooted. Founder‑led. Human‑centered.</p>
+          <div style={{marginTop:18,display:'flex',gap:12,justifyContent:'center'}}>
+            <a className="cta" href="/ventures">Explore Our Work</a>
+            <a className="cta secondary" href="/contact">Contact Us</a>
           </div>
         </section>
 
-        <section className="featured" style={{padding:'24px',maxWidth:880}}>
+        <section className="mission" style={{padding:'36px 24px',maxWidth:920}}>
+          <h2>Mission Statement</h2>
+          <p>We build digital products that make life easier, clearer, and more efficient. Our focus is practical innovation — tools that solve real problems for real people.</p>
+        </section>
+
+        <section className="what-we-do" style={{padding:'24px',maxWidth:920}}>
+          <h2>What We Do</h2>
+          <div style={{display:'grid',gridTemplateColumns:'1fr',gap:12}}>
+            <div><strong>iOS App Development</strong><br/>From concept to App Store launch — UX, compliance, product strategy, and user‑centered design.</div>
+            <div><strong>AI‑Driven Product Design</strong><br/>Automation, intelligent workflows, and smart matching systems.</div>
+            <div><strong>Launch Strategy & Positioning</strong><br/>Product Hunt, App Store, social media, and multi‑platform launch orchestration.</div>
+            <div><strong>Branding & Messaging</strong><br/>Clean, professional identity systems with a Tucson aesthetic.</div>
+            <div><strong>Founder Advisory</strong><br/>Helping new founders build, launch, and scale their first product.</div>
+          </div>
+        </section>
+
+        <section className="featured" style={{padding:'24px',maxWidth:920}}>
           <h2>Featured Project — LoveYourNextJob</h2>
           <p>A modern job‑search app built to eliminate stale listings, automate resume tailoring, and help people apply faster.</p>
-          <div style={{marginTop:12}}>
-            <a className="cta" href="/ventures" style={{marginRight:8}}>View Project</a>
-            <a className="cta" href="#" aria-disabled>Download on the App Store</a>
+          <div style={{display:'flex',gap:12,marginTop:12}}>
+            <a className="cta" href="/projects/loveyournextjob">View Project</a>
+            <a className="cta secondary" href="#">Download on the App Store</a>
           </div>
         </section>
 

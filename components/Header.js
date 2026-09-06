@@ -4,13 +4,13 @@ export default function Header(){
   return (
     <header className="site-header">
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-        <Link href="/"><a style={{display:'flex',alignItems:'center',gap:12}}>
+        <Link href="/" style={{display:'flex',alignItems:'center',gap:12}}>
           <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
-        </a></Link>
-        <nav className="nav">
-          <Link href="/about"><a>About</a></Link>
-          <Link href="/ventures"><a style={{marginLeft:16}}>Ventures</a></Link>
-          <Link href="/contact"><a style={{marginLeft:16}}>Contact</a></Link>
+        </Link>
+        <nav className="nav" style={{display:'flex',gap:16}}>
+          <Link href="/about">About</Link>
+          <Link href="/ventures">Ventures</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
       </div>
     </header>
