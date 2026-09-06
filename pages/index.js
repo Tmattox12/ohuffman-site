@@ -5,27 +5,19 @@ export default function Home() {
     <div className="container">
       <Header />
       <main>
-        <section className="hero" style={{padding:'72px 24px',textAlign:'center',background:'linear-gradient(180deg,#e6f7fb,white)',position:'relative'}}>
-          <h1>The O‑Huffman Group LLC</h1>
-          <p style={{fontStyle:'italic',maxWidth:760,margin:'8px auto'}}>Building intelligent products that simplify real‑world problems.</p>
-          <p style={{marginTop:6}}>Tucson‑rooted. Founder‑led. Human‑centered.</p>
-          <div style={{marginTop:18,display:'flex',gap:12,justifyContent:'center'}}>
-            <a className="cta" href="/ventures">Explore Our Work</a>
-            <a className="cta secondary" href="/contact">Contact Us</a>
-          <main>
-            <section className="hero-bleed">
-              <img src="/tucson-skyline.svg" alt="Tucson skyline" className="hero-bg" />
-              <div className="hero-inner">
-                <div className="hero-divider" />
-                <h1 className="hero-title">The O‑Huffman Group LLC</h1>
-                <div className="hero-meta">Founder · Product Strategist · Tucson, AZ</div>
-                <div className="hero-sub">Building intelligent products that simplify real‑world problems.</div>
-                <div className="hero-ctas">
-                  <a className="cta" href="/ventures">Explore Our Work</a>
-                  <a className="cta secondary" href="/contact">Contact Us</a>
-                </div>
-              </div>
-            </section>
+        <section className="hero-bleed">
+          <img src="/tucson-skyline.svg" alt="Tucson skyline" className="hero-bg" />
+          <div className="hero-inner">
+            <div className="hero-divider" />
+            <h1 className="hero-title">The O‑Huffman Group LLC</h1>
+            <div className="hero-meta">Founder · Product Strategist · Tucson, AZ</div>
+            <div className="hero-sub">Building intelligent products that simplify real‑world problems.</div>
+            <div className="hero-ctas">
+              <a className="cta" href="/ventures">Explore Our Work</a>
+              <a className="cta secondary" href="/contact">Contact Us</a>
+            </div>
+          </div>
+        </section>
 
         <section className="what-we-do" style={{padding:'24px',maxWidth:920}}>
           <h2>What We Do</h2>
@@ -35,15 +27,6 @@ export default function Home() {
             <div><strong>Launch Strategy & Positioning</strong><br/>Product Hunt, App Store, social media, and multi‑platform launch orchestration.</div>
             <div><strong>Branding & Messaging</strong><br/>Clean, professional identity systems with a Tucson aesthetic.</div>
             <div><strong>Founder Advisory</strong><br/>Helping new founders build, launch, and scale their first product.</div>
-          </div>
-        </section>
-
-        <section className="featured" style={{padding:'24px',maxWidth:920}}>
-          <h2>Featured Project — LoveYourNextJob</h2>
-          <p>A modern job‑search app built to eliminate stale listings, automate resume tailoring, and help people apply faster.</p>
-          <div style={{display:'flex',gap:12,marginTop:12}}>
-            <a className="cta" href="/projects/loveyournextjob">View Project</a>
-            <a className="cta secondary" href="#">Download on the App Store</a>
           </div>
         </section>
 
@@ -75,8 +58,6 @@ export default function Home() {
 
       <style jsx>{`
         .container { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#0b2545; }
-        .hero{padding:72px 24px;text-align:center;background:linear-gradient(180deg,#e6f7fb,white)}
-        .cta{display:inline-block;margin-top:16px;padding:10px 20px;background:#0b2545;color:#fff;border-radius:6px}
         .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
         .card{padding:16px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(11,37,69,0.06)}
         footer{padding:24px;text-align:center;color:#6b7280}
