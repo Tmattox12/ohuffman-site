@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="600" height="600">
   <defs>
     <linearGradient id="g" x1="0" x2="1">
       <stop offset="0" stop-color="#ff7acb" />
@@ -8,9 +8,8 @@
   </defs>
   <rect width="100%" height="100%" fill="transparent" />
   <g transform="translate(12,12)">
-    <rect x="0" y="0" width="96" height="96" rx="14" fill="#0f1630" stroke="url(#g)" stroke-width="3" />
-    <path d="M24 30 L36 30 L36 66 L24 66 Z M36 30 L60 30 L60 42 L36 42 Z" fill="url(#g)" opacity="0.95" />
-    <text x="124" y="66" font-family="Inter, Arial, sans-serif" font-size="34" fill="url(#g)" font-weight="700">LoveYourNextJob</text>
-    <text x="124" y="92" font-family="Inter, Arial, sans-serif" font-size="12" fill="#9aa8b3">AI Job Matches &amp; Auto-Apply</text>
+    <rect x="0" y="20" width="96" height="56" rx="10" fill="#071428" stroke="url(#g)" stroke-width="3" />
+    <rect x="24" y="0" width="48" height="26" rx="6" fill="#071428" stroke="url(#g)" stroke-width="3" />
+    <path d="M34 40 L46 72 L58 40 Z" fill="url(#g)" opacity="0.95" />
   </g>
 </svg>

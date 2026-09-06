@@ -28,16 +28,16 @@ export default function Home() {
 
             <div className="product-grid">
               <div className="product-card">
-                <img src="/loveyournextjob.svg" alt="LoveYourNextJob" style={{height:44,marginBottom:12}} />
-                <h3>LoveYourNextJob.com</h3>
+                <img src="/loveyournextjob.svg" alt="AI Job Website" style={{height:44,marginBottom:12}} />
+                <h3>AI Job Website</h3>
                 <div style={{color:'var(--muted)',fontSize:13,fontWeight:700,marginBottom:8}}>Career Platform (Pre-Launch)</div>
-                <p>A next-generation career platform designed to help people discover meaningful work and build futures they love.</p>
+                <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
                 <div style={{marginTop:12}}><span style={{display:'inline-block',padding:'8px 12px',borderRadius:18,background:'#071828',color:'#9fe5dd',fontWeight:700}}>Coming Soon</span></div>
               </div>
 
               <div className="product-card">
-                <img src="/verital.svg" alt="Verital" style={{height:44,marginBottom:12}} />
-                <h3>Verital</h3>
+                <img src="/verital.svg" alt="Veritas" style={{height:44,marginBottom:12}} />
+                <h3>Veritas</h3>
                 <div style={{color:'var(--muted)',fontSize:13,fontWeight:700,marginBottom:8}}>Legal Financial Intelligence</div>
                 <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
                 <a className="learn" href="#">Learn More</a>
