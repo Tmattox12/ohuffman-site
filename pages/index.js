@@ -28,7 +28,7 @@ export default function Home() {
 
             <div className="product-grid">
               <div className="product-card">
-                <img src="/ai-job.svg" alt="AI Job Website" style={{height:44,marginBottom:12}} />
+                <img src="/ai-job.png" alt="AI Job Website" style={{height:44,marginBottom:12}} />
                 <h3>AI Job Website</h3>
                 <div className="subtitle">Career Platform (Pre-Launch)</div>
                 <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
@@ -36,7 +36,7 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/verital.svg" alt="Veritas" style={{height:44,marginBottom:12}} />
+                <img src="/veritas.png" alt="Veritas" style={{height:44,marginBottom:12}} />
                 <h3>Veritas</h3>
                 <div className="subtitle">Legal Financial Intelligence</div>
                 <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/empowermehealth.svg" alt="EmpowerMeHealth" style={{height:44,marginBottom:12}} />
+                <img src="/empowermehealth.png" alt="EmpowerMeHealth" style={{height:44,marginBottom:12}} />
                 <h3>EmpowerMeHealth</h3>
                 <div className="subtitle">Healthcare Connection App</div>
                 <p>Connecting people to the care they need with clarity, compassion, and confidence.</p>
