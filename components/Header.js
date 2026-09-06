@@ -14,8 +14,10 @@ export default function Header(){
   return (
     <header className={"site-header" + (scrolled ? ' scrolled' : '')}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-        <Link href="/" style={{display:'flex',alignItems:'center',gap:12}}>
-          <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
+        <Link href="/" className="brand-link">
+          <div className="brand-box" aria-hidden="true">
+            <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
+          </div>
           <span className="brand-text">The O‑Huffman Group, LLC</span>
         </Link>
 
