@@ -28,7 +28,7 @@ export default function Home() {
 
             <div className="product-grid">
               <div className="product-card">
-                <img src="/ai-job.png" alt="AI Job Website" style={{height:44,marginBottom:12}} />
+                <img src="/ai-job.png" alt="AI Job Website" className="product-logo" />
                 <h3>AI Job Website</h3>
                 <div className="subtitle">Career Platform (Pre-Launch)</div>
                 <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/empowermehealth.png" alt="EmpowerMeHealth" style={{height:44,marginBottom:12}} />
+                <img src="/empowermehealth.png" alt="EmpowerMeHealth" className="product-logo" />
                 <h3>EmpowerMeHealth</h3>
                 <div className="subtitle">Healthcare Connection App</div>
                 <p>Connecting people to the care they need with clarity, compassion, and confidence.</p>
@@ -53,6 +53,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="mission-bridge">
+          <div className="container" style={{maxWidth:900, margin:'0 auto 18px', textAlign:'center'}}>
+            <p style={{margin:0, color:'#9fded0', fontWeight:700}}>From product to purpose — our products fund Nico’s Place. <a href="https://nicosplace.org" target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)'}}>Learn how Nico’s Place helps families →</a></p>
+          </div>
+        </section>
+
         <section className="nico">
           <div className="container">
             <div className="nico-inner" style={{maxWidth:900,margin:'18px auto',padding:'36px 24px',background:'linear-gradient(180deg, rgba(255,255,255,0.02), transparent)',borderRadius:12}}>

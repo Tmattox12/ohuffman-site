@@ -70,6 +70,10 @@ a{color:var(--accent)}
 .nico h2{color:#fff;margin:0 0 10px;font-size:22px}
 .nico p{color:var(--muted);margin:0 0 12px;line-height:1.6}
 
+.mission-bridge{padding:14px 24px 8px}
+.mission-bridge .container p{margin:0;color:#9fded0;font-weight:700}
+
+
 @media (max-width:800px){
 	.hero-inner{padding:48px 18px;text-align:center;align-items:center}
 	.hero-title{font-size:32px}
