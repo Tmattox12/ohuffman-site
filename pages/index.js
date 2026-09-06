@@ -36,7 +36,7 @@ export default function Home() {
               </div>
 
               <div className="product-card">
-                <img src="/veritas.png" alt="Veritas" style={{height:44,marginBottom:12}} />
+                <img src="/veritas.jpg" alt="Veritas" style={{height:44,marginBottom:12}} />
                 <h3>Veritas</h3>
                 <div className="subtitle">Legal Financial Intelligence</div>
                 <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
