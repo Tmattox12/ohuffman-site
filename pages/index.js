@@ -33,18 +33,17 @@ export default function Home() {
         <section id="ventures" className="ventures" style={{padding:'36px 24px'}}>
           <h2>Ventures</h2>
           <div className="cards">
-            <div className="card">
-              <h3>AI-Powered Job Search</h3>
-              <p>PRE-LAUNCH</p>
-            </div>
-            <div className="card">
-              <h3>Venture Two</h3>
-              <p>Product &amp; Growth</p>
-            </div>
-            <div className="card">
-              <h3>Venture Three</h3>
-              <p>Operations &amp; Strategy</p>
-            </div>
+              <div className="card">
+                <img src="/verital.svg" alt="Verital" style={{height:36,marginBottom:12}} />
+                <h3>Verital</h3>
+                <p>Legal Financial Intelligence<br/>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
+                <a className="learn" href="#">Learn More</a>
+              </div>
+              <div className="card">
+                <h3>Other Products</h3>
+                <p>We build a portfolio of purpose‑driven software — product strategy, design, and growth support for founders and teams.</p>
+                <a className="learn" href="/ventures">Explore</a>
+              </div>
           </div>
         </section>
 
