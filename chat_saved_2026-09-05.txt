@@ -1,0 +1,17 @@
+Chat snapshot — The O-Huffman Group (saved 2026-09-05 04:35 UTC)
+
+Summary:
+- Recreated Next.js site for The O-Huffman Group, LLC and pushed to https://github.com/Tmattox12/ohuffman-site
+- Clean repo created at: C:\dev\The O-Huffman Group\ohuffman-site-clean
+- Dev server ran locally at http://localhost:3001 (verified HTTP 200)
+- Files added/updated: pages (index, about, ventures, contact, projects/loveyournextjob), components/Header.js, styles/globals.css, public/logo.svg, public/logo-stacked.svg, public/tucson-skyline.svg
+- CI/workflows added: .github/workflows/size-check.yml, .github/workflows/vercel-deploy.yml
+- Contact API placeholder: pages/api/contact.js
+- Actions taken to remove large files and create a clean repo to avoid GitHub >100MB error
+- Next suggested steps: deploy to Vercel, configure Namecheap DNS, integrate email provider (SendGrid/Postmark), refine visuals (skyline/CTAs)
+
+Notes:
+- Dev server is running in a background terminal; stop with Ctrl+C in that terminal if needed.
+- Repo URL: https://github.com/Tmattox12/ohuffman-site
+
+If you want the full transcript saved elsewhere (Google Drive, Dropbox, or emailed), tell me where and I will export it.
