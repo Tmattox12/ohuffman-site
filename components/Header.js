@@ -1,8 +1,17 @@
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 export default function Header(){
+  const [scrolled, setScrolled] = useState(false)
+  useEffect(()=>{
+    const onScroll = () => setScrolled(window.scrollY > 24)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  },[])
+
   return (
-    <header className="site-header">
+    <header className={"site-header" + (scrolled ? ' scrolled' : '')}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
         <Link href="/" style={{display:'flex',alignItems:'center',gap:12}}>
           <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
