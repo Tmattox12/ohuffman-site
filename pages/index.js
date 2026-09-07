@@ -35,7 +35,7 @@ export default function Home() {
                   <h3>AI Job Website</h3>
                   <div className="subtitle">Career Platform (Pre-Launch)</div>
                   <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
-                  <div style={{marginTop:12}}><span style={{display:'inline-block',padding:'8px 12px',borderRadius:18,background:'#071828',color:'#9fe5dd',fontWeight:700}}>Coming Soon</span></div>
+                  <div className="status"><span style={{display:'inline-block',padding:'8px 12px',borderRadius:18,background:'#071828',color:'#9fe5dd',fontWeight:700}}>Coming Soon</span></div>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@ export default function Home() {
                   <h3>Veritas</h3>
                   <div className="subtitle">Legal Financial Intelligence</div>
                   <p>Powerful software that transforms financial data into clear, actionable insights for legal and professional teams.</p>
-                  <span className="learn disabled">Under development</span>
+                  <div className="status"><span className="learn disabled">Under development</span></div>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export default function Home() {
                   <h3>EmpowerMeHealth</h3>
                   <div className="subtitle">Healthcare Connection App</div>
                   <p>Connecting people to the care they need with clarity, compassion, and confidence.</p>
-                  <span className="learn disabled">Under development</span>
+                  <div className="status"><span className="learn disabled">Under development</span></div>
                 </div>
               </div>
             </div>
@@ -82,6 +82,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <div className="section-divider" />
 
         <section className="founder">
           <div className="container" style={{display:'flex',alignItems:'center',gap:24}}>
