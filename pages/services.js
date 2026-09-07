@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function Services() {
   return (
@@ -44,7 +45,7 @@ export default function Services() {
         </section>
       </main>
 
-      <footer className="footer">© {new Date().getFullYear()} The O‑Huffman Group LLC — Tucson, Arizona • hello@ohuffmangroup.com</footer>
+      <Footer />
     </div>
   )
 }

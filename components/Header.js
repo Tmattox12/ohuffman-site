@@ -15,10 +15,7 @@ export default function Header(){
     <header className={"site-header" + (scrolled ? ' scrolled' : '')}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
         <Link href="/" className="brand-link">
-          <div className="brand-box" aria-hidden="true">
-            <img src="/logo.svg" alt="O-Huffman Group" className="logo-img"/>
-          </div>
-          <span className="brand-text">The O‑Huffman Group, LLC</span>
+          <span className="brand-text">The O‑Huffman Group, LLC.</span>
         </Link>
 
         <button
