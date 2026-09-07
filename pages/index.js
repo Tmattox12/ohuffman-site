@@ -1,14 +1,18 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Seo from '../components/Seo'
 
 export default function Home() {
   return (
     <div>
+      <Seo
+        description="The O-Huffman Group, LLC builds software that drives better decisions, healthier lives, and stronger futures — from Tucson, Arizona."
+      />
       <Header />
 
       <main>
         <section className="hero-bleed">
-          <img src="/tucson-skyline.svg" alt="Tucson skyline" className="hero-bg" />
+          <img src="/tucson-skyline.svg" alt="" className="hero-bg" />
           <div className="hero-inner">
             <div className="hero-divider" />
             <h1 className="hero-title">Building products.<br/>Empowering people.</h1>

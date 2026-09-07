@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Seo from '../components/Seo'
 
 const EMAIL = 'hello@ohuffmangroup.com'
 const LINKEDIN = 'https://www.linkedin.com/company/143682019/'
@@ -7,6 +8,10 @@ const LINKEDIN = 'https://www.linkedin.com/company/143682019/'
 export default function Contact(){
   return (
     <div>
+      <Seo
+        title="Contact"
+        description="Get in touch with The O-Huffman Group, LLC by email or on LinkedIn. Based in Tucson, Arizona."
+      />
       <Header />
 
       <main>

@@ -1,9 +1,14 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Seo from '../components/Seo'
 
 export default function Services() {
   return (
     <div>
+      <Seo
+        title="Services"
+        description="Product strategy, legal technology, design and UX, and technical advisory services from The O-Huffman Group, LLC."
+      />
       <Header />
 
       <main>

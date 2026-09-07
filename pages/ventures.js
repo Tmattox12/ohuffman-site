@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Seo from '../components/Seo'
 
 const VENTURES = [
   {
@@ -49,6 +50,10 @@ const VENTURES = [
 export default function Ventures(){
   return (
     <div>
+      <Seo
+        title="Ventures"
+        description="Three products from The O-Huffman Group: an AI-driven career platform, Veritas legal financial intelligence, and the EmpowerMeHealth care connection app."
+      />
       <Header />
 
       <main>
