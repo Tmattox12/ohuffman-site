@@ -50,8 +50,8 @@ a{color:var(--accent)}
 .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1200px;margin:0 auto}
 .product-card{display:flex;flex-direction:column;align-items:flex-start;gap:16px;background:linear-gradient(180deg, rgba(18,44,70,0.60), rgba(9,30,50,0.50));border-radius:12px;padding:22px;min-height:180px;box-shadow:0 8px 30px rgba(2,8,20,0.6);border:1px solid rgba(18,140,160,0.08);text-align:left}
 .product-card img{max-height:none;object-fit:contain;display:block;margin:0}
-.product-logo-wrap{width:96px;height:96px;display:flex;align-items:center;justify-content:flex-start;margin-bottom:8px}
-.product-logo-wrap img{max-width:84px;max-height:84px;display:block}
+.product-logo-wrap{width:140px;height:140px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;flex:0 0 140px;background:rgba(255,255,255,0.02);border-radius:10px;padding:8px;box-sizing:border-box}
+.product-logo-wrap img{max-width:100%;max-height:100%;display:block;object-fit:contain}
 .product-card .product-logo{width:auto;height:auto;object-fit:contain;display:block}
 .product-card .product-body{flex:1;text-align:left}
 /* status badges centered inside product cards */
@@ -63,9 +63,9 @@ a{color:var(--accent)}
 .product-card .learn.disabled{border-color:rgba(255,255,255,0.03);color:var(--muted);background:transparent;pointer-events:none}
 @media (max-width:960px){
   .product-grid{grid-template-columns:repeat(2,1fr)}
-  .product-card{flex-direction:column;align-items:flex-start}
-  .product-logo-wrap{width:72px;height:72px}
-  .product-logo-wrap img{max-width:62px;max-height:62px}
+	.product-card{flex-direction:column;align-items:flex-start}
+	.product-logo-wrap{width:120px;height:120px;flex:0 0 120px}
+	.product-logo-wrap img{max-width:100%;max-height:100%}
 }
 @media (max-width:640px){.product-grid{grid-template-columns:1fr}}
 
