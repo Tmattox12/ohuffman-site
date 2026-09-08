@@ -15,13 +15,18 @@ export default function Header(){
     <header className={"site-header" + (scrolled ? ' scrolled' : '')}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
         <Link href="/" className="brand-link" aria-label="The O‑Huffman Group, LLC — home">
-          <svg className="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-            <g fill="none" stroke="currentColor" strokeWidth="5" strokeLinecap="round">
-              <path d="M35.82 10.33 A22 22 0 0 1 52.10 40.95"/>
-              <path d="M48.85 46.14 A22 22 0 0 1 14.20 44.93"/>
-              <path d="M11.33 39.52 A22 22 0 0 1 29.70 10.12"/>
+          <svg className="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+            <circle cx="50" cy="50" r="47.5" fill="#0b1739" stroke="#ffffff" strokeWidth="5"/>
+            <g transform="translate(50 50) scale(0.9) translate(-50 -50)">
+              <circle cx="50" cy="50" r="38" fill="none" stroke="#1fbdd1" strokeWidth="5"/>
+              <circle cx="50" cy="50" r="32.4" fill="none" stroke="#cf9b26" strokeWidth="1.3"/>
+              <line x1="25" y1="52.6" x2="75" y2="52.6" stroke="#cf9b26" strokeWidth="1.9"/>
+              <text
+                x="50" y="62" textAnchor="middle"
+                fontFamily="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif"
+                fontSize="32" fontWeight="800" fill="#ffffff" letterSpacing="-0.5"
+              >OHG</text>
             </g>
-            <circle cx="32" cy="32" r="5.5" fill="currentColor"/>
           </svg>
           <span className="brand-type">
             <span className="brand-name">The O‑Huffman Group, LLC</span>
