@@ -1,12 +1,15 @@
 .root{--nav:#0b2545}
-:root{--bg:#071028;--panel:#07182a;--muted:#9aa8b3;--accent:#26c6b0;--glass:rgba(255,255,255,0.04)}
+:root{--bg:#071028;--panel:#07182a;--muted:#9aa8b3;--accent:#26c6b0;--accent-soft:#9fded0;--glass:rgba(255,255,255,0.04);--mono:'IBM Plex Mono',ui-monospace,'Cascadia Mono',Consolas,monospace}
 html,body,#root{height:100%}
-body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#031025 0%, #071028 100%);color:#dbeafe}
+body{margin:0;font-family:Archivo,Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#031025 0%, #071028 100%);color:#dbeafe}
 a{color:var(--accent)}
 .site-header{border-bottom:1px solid rgba(255,255,255,0.04);position:sticky;top:0;z-index:60;padding:12px 24px;background:transparent;transition:background .25s ease,backdrop-filter .25s ease}
 .site-header.scrolled{background:linear-gradient(180deg,rgba(2,6,23,0.6),rgba(2,6,23,0.28));backdrop-filter:blur(6px)}
-.brand-text{color:#fff;font-weight:900;font-size:clamp(17px,1.7vw,22px);letter-spacing:0.2px}
-.brand-link{display:flex;align-items:center;text-decoration:none;margin-right:auto}
+.brand-link{display:flex;align-items:center;gap:12px;text-decoration:none;margin-right:auto}
+.brand-mark{flex:0 0 auto;width:clamp(30px,3.2vw,38px);height:clamp(30px,3.2vw,38px);color:var(--accent)}
+.brand-type{display:flex;flex-direction:column;line-height:1.12;min-width:0}
+.brand-name{color:#fff;font-weight:700;font-size:clamp(16px,1.9vw,21px);letter-spacing:-0.01em;white-space:nowrap}
+.brand-sub{font-family:var(--mono);font-size:clamp(8.5px,0.82vw,10px);font-weight:400;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent-soft);white-space:nowrap}
 .container{max-width:1200px;margin:0 auto}
 @media (max-width:640px){.site-header{padding:10px 12px}}
 
@@ -198,7 +201,9 @@ a{color:var(--accent)}
 }
 
 @media (max-width:640px){
-  .brand-text{font-size:16px}
+  .brand-name{font-size:16px}
+  .brand-sub{letter-spacing:0.14em}
+  .brand-mark{width:28px;height:28px}
 }
 
 /* Footer */

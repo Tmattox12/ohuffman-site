@@ -24,13 +24,13 @@ export default function Footer(){
             <span className="footer-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>
             </span>
-            <a href="mailto:hello@ohuffmangroup.com">hello@ohuffmangroup.com</a>
+            <a href="mailto:hello@o-huffmangroup.com">hello@o-huffmangroup.com</a>
           </div>
           <div className="footer-item">
             <span className="footer-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
             </span>
-            <a href="https://ohuffmangroup.com">ohuffmangroup.com</a>
+            <a href="https://www.o-huffmangroup.com">o-huffmangroup.com</a>
           </div>
         </div>
       </div>

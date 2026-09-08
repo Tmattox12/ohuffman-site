@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Seo from '../components/Seo'
 
-const EMAIL = 'hello@ohuffmangroup.com'
+const EMAIL = 'hello@o-huffmangroup.com'
 const LINKEDIN = 'https://www.linkedin.com/company/143682019/'
 
 export default function Contact(){
