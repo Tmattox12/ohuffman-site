@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Seo from '../components/Seo'
+import { LYNJ_SITE_URL, LYNJ_APP_STORE_URL } from '../lib/links'
 
 export default function Home() {
   return (
@@ -34,13 +35,16 @@ export default function Home() {
             <div className="product-grid">
               <div className="product-card">
                 <div className="product-logo-wrap on-black">
-                  <img src="/ai-job.png" alt="AI Job Website" className="product-logo" />
+                  <img src="/ai-job.png" alt="LoveYourNextJob" className="product-logo" />
                 </div>
                 <div className="product-body">
-                  <h3>AI Job Website</h3>
-                  <div className="subtitle">Career Platform (Pre-Launch)</div>
-                  <p>An AI-driven job site and matching experience currently in pre-launch. We'll announce the product name at launch.</p>
-                  <div className="status"><span className="badge-soon">Coming Soon</span></div>
+                  <h3>LoveYourNextJob</h3>
+                  <div className="subtitle">AI Career Platform</div>
+                  <p>Verified openings straight from company career pages, with a résumé and cover letter tailored to each role — sent only when you approve.</p>
+                  <div className="status status-links">
+                    <a className="learn" href={LYNJ_SITE_URL} target="_blank" rel="noopener noreferrer">Visit site</a>
+                    {LYNJ_APP_STORE_URL && <a className="learn" href={LYNJ_APP_STORE_URL} target="_blank" rel="noopener noreferrer">App Store</a>}
+                  </div>
                 </div>
               </div>
 

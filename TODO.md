@@ -53,9 +53,10 @@ Currently using the numeric company URL
 `https://www.linkedin.com/company/143682019/`. It works and redirects, but a
 vanity handle (e.g. `/company/ohuffman-group`) looks better in link previews.
 
-### Naming the AI job site
-The site says the name will be announced at launch, so the product is listed
-as "AI Job Website". Ready to go public with the real name whenever you are.
+### LoveYourNextJob App Store link
+Launched on the web and the App Store (2026-10). The site now names the
+product and links to loveyournextjob.com. The App Store button stays hidden
+until the listing URL is filled in at `lib/links.js` (`LYNJ_APP_STORE_URL`).
 
 ---
 

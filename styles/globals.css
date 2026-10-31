@@ -78,6 +78,9 @@ a{color:var(--accent)}
 /* one shared badge look for every product status, whatever the wording */
 .badge-soon,.learn.disabled{display:inline-block;padding:8px 16px;border-radius:8px;background:rgba(38,198,176,0.12);border:1px solid rgba(38,198,176,0.35);color:#9fe5dd;font-weight:600;font-size:13px;letter-spacing:.02em;line-height:1.2;text-decoration:none}
 .learn.disabled{pointer-events:none}
+.status-links,.venture-links{gap:10px;flex-wrap:wrap}
+.venture-links{display:flex;margin-top:14px}
+.learn:not(.disabled):hover{background:rgba(38,198,176,0.1);border-color:var(--accent)}
 @media (max-width:960px){
   .product-grid{grid-template-columns:repeat(2,1fr)}
 	.product-card{flex-direction:column;align-items:center}

@@ -1,20 +1,25 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Seo from '../components/Seo'
+import { LYNJ_SITE_URL, LYNJ_APP_STORE_URL } from '../lib/links'
 
 const VENTURES = [
   {
-    name: 'AI Job Website',
-    category: 'Career Platform',
+    name: 'LoveYourNextJob',
+    category: 'AI Career Platform',
     logo: '/ai-job.png',
     tone: 'on-black',
-    status: 'Coming Soon',
-    statusKind: 'soon',
-    summary: 'An AI-driven job site and matching experience currently in pre-launch. We will announce the product name at launch.',
+    status: 'Live',
+    statusKind: 'live',
+    links: [
+      { label: 'Visit loveyournextjob.com', href: LYNJ_SITE_URL },
+      { label: 'Download on the App Store', href: LYNJ_APP_STORE_URL },
+    ].filter(l => l.href),
+    summary: 'An AI career platform for the ambitious generation. Real jobs, real control, real impact.',
     points: [
-      'AI-assisted matching that looks past keyword overlap to what a role actually asks for',
-      'Guidance through the search itself — not just another list of postings',
-      'Built for people changing direction, not only those climbing a ladder',
+      'Verified openings pulled directly from company career pages',
+      'A résumé and cover letter tailored to each job you pursue',
+      'Applications are prepared for you and sent only after you approve them',
     ],
   },
   {
@@ -52,7 +57,7 @@ export default function Ventures(){
     <div>
       <Seo
         title="Ventures"
-        description="Three products from The O-Huffman Group: an AI-driven career platform, Veritas legal financial intelligence, and the EmpowerMeHealth care connection app."
+        description="Three products from The O-Huffman Group: the LoveYourNextJob AI career platform, Veritas legal financial intelligence, and the EmpowerMeHealth care connection app."
       />
       <Header />
 
@@ -89,6 +94,11 @@ export default function Ventures(){
                     <ul className="venture-points">
                       {v.points.map(p => <li key={p}>{p}</li>)}
                     </ul>
+                    {v.links && v.links.length > 0 && (
+                      <div className="venture-links">
+                        {v.links.map(l => <a className="learn" key={l.href} href={l.href} target="_blank" rel="noopener noreferrer">{l.label}</a>)}
+                      </div>
+                    )}
                   </div>
                 </article>
               ))}
