@@ -14,7 +14,7 @@ export default function Header(){
   return (
     <header className={"site-header" + (scrolled ? ' scrolled' : '')}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
-        <Link href="/" className="brand-link" aria-label="The O‑Huffman Group, LLC — home">
+        <Link href="/" className="brand-link" aria-label="The O‑Huffman Group, LLC home page">
           <svg className="brand-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
             <circle cx="50" cy="50" r="47.5" fill="#0b1739" stroke="#ffffff" strokeWidth="5"/>
             <g transform="translate(50 50) scale(0.9) translate(-50 -50)">

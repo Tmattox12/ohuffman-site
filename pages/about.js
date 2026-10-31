@@ -32,7 +32,7 @@ export default function About(){
           <div className="container about-inner">
             <div className="about-panel">
               <p className="about-lead">The O‑Huffman Group, LLC was founded by <strong>Tamara Huffman</strong>, a Tucson‑based product leader with a passion for building tools that make everyday life easier.</p>
-              <p>After two decades in corporate environments, Tamara saw firsthand how many systems — job searching, workflows, digital tools — were outdated and frustrating. She created The O‑Huffman Group to build products that feel modern, intuitive, and human.</p>
+              <p>After two decades in corporate environments, Tamara saw firsthand how outdated and frustrating so many systems were, from job searching to workflows to everyday digital tools. She created The O‑Huffman Group to build products that feel modern, intuitive, and human.</p>
             </div>
 
             <aside className="about-card">

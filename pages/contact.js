@@ -19,7 +19,7 @@ export default function Contact(){
           <div className="hero-inner">
             <div className="hero-divider" />
             <h1 className="hero-title">Contact</h1>
-            <div className="hero-sub">Partnerships, press, or just a good question — we read every message.</div>
+            <div className="hero-sub">Partnerships, press, or just a good question. We read every message.</div>
           </div>
         </section>
 

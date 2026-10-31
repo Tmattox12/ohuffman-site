@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Seo
-        description="The O-Huffman Group, LLC builds software that drives better decisions, healthier lives, and stronger futures — from Tucson, Arizona."
+        description="The O-Huffman Group, LLC is a Tucson, Arizona company building software that drives better decisions, healthier lives, and stronger futures."
       />
       <Header />
 
@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="product-body">
                   <h3>LoveYourNextJob</h3>
                   <div className="subtitle">AI Career Platform</div>
-                  <p>Verified openings straight from company career pages, with a résumé and cover letter tailored to each role — sent only when you approve.</p>
+                  <p>Verified openings straight from company career pages, with a résumé and cover letter tailored to each role. Nothing is sent until you approve it.</p>
                   <div className="status status-links">
                     <a className="learn" href={LYNJ_SITE_URL} target="_blank" rel="noopener noreferrer">Visit site</a>
                     {LYNJ_APP_STORE_URL && <a className="learn" href={LYNJ_APP_STORE_URL} target="_blank" rel="noopener noreferrer">App Store</a>}
@@ -76,16 +76,16 @@ export default function Home() {
         </section>
         <section className="mission-bridge">
           <div className="container" style={{maxWidth:900, margin:'0 auto 18px', textAlign:'center'}}>
-            <p style={{margin:0, color:'#9fded0', fontWeight:700}}>From product to purpose — our products fund Nico’s Place. <a href="https://nicosplace.org" target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)'}}>Learn how Nico’s Place helps families →</a></p>
+            <p style={{margin:0, color:'#9fded0', fontWeight:700}}>From product to purpose, our products fund Nico’s Place. <a href="https://nicosplace.org" target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)'}}>Learn how Nico’s Place helps families →</a></p>
           </div>
         </section>
 
         <section className="nico">
           <div className="container">
             <div className="nico-inner">
-              <h2 style={{marginTop:0}}>Nico’s Place — The Heart Behind Our Work</h2>
+              <h2 style={{marginTop:0}}>Nico’s Place: The Heart Behind Our Work</h2>
               <p>Nico’s journey taught me what clarity, support, and compassion really mean. When systems failed us, I learned firsthand how overwhelming life can feel when you’re navigating complex challenges without the right tools. Our work has a purpose beyond the product.</p>
-              <p>The success of The O‑Huffman Group helps fund the future of <strong>Nico’s Place</strong> — a space built to honor his story and provide families with the clarity, care, and resources they deserve.</p>
+              <p>The success of The O‑Huffman Group helps fund the future of <strong>Nico’s Place</strong>, a space built to honor his story and provide families with the clarity, care, and resources they deserve.</p>
               <p><em>Nico inspired the mission. Our products make it possible.</em></p>
               <p style={{marginTop:12}}><a className="cta secondary" href="https://nicosplace.org" target="_blank" rel="noopener noreferrer">Learn about Nico’s Place</a></p>
             </div>

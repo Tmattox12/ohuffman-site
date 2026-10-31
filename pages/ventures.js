@@ -66,7 +66,7 @@ export default function Ventures(){
           <div className="hero-inner">
             <div className="hero-divider" />
             <h1 className="hero-title">Ventures</h1>
-            <div className="hero-sub">Three products, one thread — software that gives people clarity when the system does not.</div>
+            <div className="hero-sub">Three products with one goal: software that gives people clarity when the system does not.</div>
           </div>
         </section>
 
@@ -111,7 +111,7 @@ export default function Ventures(){
             <div className="nico-inner">
               <h2 style={{marginTop:0}}>Why these three</h2>
               <p>Every product here started with the same frustration: watching capable people get lost inside systems that were never built to be understood. A job search that hides what a role really wants. Financial records that take weeks to make sense of. A care network that expects you to already know the rules.</p>
-              <p>The success of The O‑Huffman Group helps fund the future of <strong>Nico’s Place</strong> — a space built to honor his story and provide families with the clarity, care, and resources they deserve.</p>
+              <p>The success of The O‑Huffman Group helps fund the future of <strong>Nico’s Place</strong>, a space built to honor his story and provide families with the clarity, care, and resources they deserve.</p>
               <p style={{marginTop:12}}>
                 <a className="cta secondary" href="/contact">Get in touch</a>
                 <a className="cta" href="https://nicosplace.org" target="_blank" rel="noopener noreferrer" style={{marginLeft:12}}>Learn about Nico’s Place</a>
