@@ -102,7 +102,7 @@ export default function Home() {
               <div className="eyebrow">FOUNDER &amp; PRODUCT STRATEGIST</div>
               <h3>Tamara Huffman</h3>
               <div className="founder-place">Tucson, Arizona</div>
-              <p>With 25+ years of experience in product strategy, legal technology, and operational leadership, Tamara is passionate about building software that solves real problems and improves lives.</p>
+              <p>With 25+ years of experience in product strategy, compliance and regulatory technology, and operational leadership, Tamara is passionate about building software that solves real problems and improves lives.</p>
               <a className="founder-cta" href="/about">MEET TAMARA</a>
             </div>
 
